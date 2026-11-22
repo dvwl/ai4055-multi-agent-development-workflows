@@ -1,0 +1,15 @@
+# Teaching example: inspect and adapt before copying to a project root.
+# Install pre-commit and hook environments only in an approved development environment.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: detect-private-key
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.2
+    hooks:
+      - id: ruff
+      - id: ruff-format

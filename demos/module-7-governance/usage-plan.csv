@@ -1,0 +1,5 @@
+task,frequency,impact_if_wrong,minimum_suitable_workflow,verification,escalation_or_stop_condition,observed_usage_or_policy_source
+Routine test explanation,weekly,low,Fill in based on current product access,Run the documented test command,Escalate if behavior is unclear,Record current source/date
+Multi-file API change,per feature,medium,Fill in based on current product access,Focused tests plus diff review,Pause for architecture approval,Record current source/date
+Authentication or tenant boundary,rare,high,Fill in based on current product access,Security tests plus authorized human review,Stop if requirements or permissions are unclear,Record current source/date
+Production data investigation,rare,high,Use approved read-only tools only,Verify source and authorization,Stop if data scope or access is unapproved,Record current source/date

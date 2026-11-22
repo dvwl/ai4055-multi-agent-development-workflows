@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jekyll and Bundler
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Course-authoring references are not part of this public lab repository.
+*.pptx
+*.docx

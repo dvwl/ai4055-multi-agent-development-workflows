@@ -3,8 +3,10 @@ description: "Exercises and demos for Implementing Multi-Agent Development Workf
 url: "https://dvwl.github.io"
 baseurl: "/ai4055-multi-agent-development-workflows"
 repository: "dvwl/ai4055-multi-agent-development-workflows"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.12.0
 markdown: kramdown
+plugins:
+  - jekyll-remote-theme
 search_enabled: true
 heading_anchors: true
 color_scheme: light

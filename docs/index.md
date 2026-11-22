@@ -20,9 +20,20 @@ The course spans declarative workspace context and agent design, hosted tool ext
 
 ## Start here
 
-- [Exercises](https://dvwl.github.io/ai4055-multi-agent-development-workflows/exercises/) — module learning outcomes and guided labs.
-- [Demos](https://dvwl.github.io/ai4055-multi-agent-development-workflows/demos/) — runnable projects organized by module.
-- [Browse all 9 module exercises](https://dvwl.github.io/ai4055-multi-agent-development-workflows/exercises/) — guided labs and individual challenges for the full three-day course.
+New to the course? Follow these steps:
+
+1. Review the [AI4055 course outline](https://www.dreamcatcher.asia/training/4055?scroll=1).
+2. Open [Module 1: Introduction to Copilot Multi-Agent Architecture](https://dvwl.github.io/ai4055-multi-agent-development-workflows/exercises/module-1/) and complete its labs in order.
+3. Use the [Python demos](https://dvwl.github.io/ai4055-multi-agent-development-workflows/demos/) from the repository in VS Code. Open the repository root so its Copilot agents and skills are available.
+4. After Module 1, choose the next module from the course contents below.
+
+### Learner setup
+
+- VS Code with GitHub Copilot enabled; Module 1 uses Agent Mode.
+- Python 3.9 or later for Modules 1–3 and the capstone. Modules 4–6 require Python 3.11 or later for the shared FastAPI/MCP demo.
+- Clone the public [course repository](https://github.com/dvwl/ai4055-multi-agent-development-workflows) and open that folder in VS Code.
+- Run the Module 1 baseline tests from `demos/module-1-python/` before beginning its implementation lab.
+- A local MySQL instance is optional for Modules 5–6; those labs have a fixture-only path. Never use production credentials or records.
 
 ## Course learning outcomes
 
@@ -36,7 +47,7 @@ The course is designed to help learners:
 
 Module 1 uses a small local Python project and does not require a database, cloud service, or external credentials. Later module materials will reflect their own course topics and prerequisites.
 
-## Course modules
+## Table of contents
 
 ### Day 1 — Declarative workspace context and agent design
 

@@ -8,7 +8,7 @@ Course site and companion materials for **Pragmatic SDLC Automation: Implementin
 - **SBL number:** 10001745100
 - **Provider:** Dream Catcher Consulting Sdn Bhd
 - **Course duration:** 3 days, 9:00 am–5:00 pm
-- **Course page:** https://www.dreamcatcher.asia/training/4055?scroll=1
+- **Course page:** [AI4055 course outline](https://www.dreamcatcher.asia/training/4055?scroll=1)
 - **Current materials:** Exercises for Modules 1–9, Python demos, and Copilot workspace customizations.
 - **Course structure:** Modules 1–9 across Day 1 (declarative workspace context and agent design), Day 2 (hosted tool extensibility), and Day 3 (governance and lifecycle workflows).
 
@@ -35,13 +35,13 @@ python -m unittest discover -s tests -v
 
 The Module 1 and capstone starters use Python's standard library; no package installation is required. Modules 4–6 document their own dependencies and local MySQL setup.
 
-## Enable GitHub Pages
+## Publish with classic GitHub Pages
 
-1. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
-2. Run **Deploy Jekyll site to GitHub Pages** from the Actions tab (or push a later commit) to start the first deployment.
-3. The workflow in `.github/workflows/pages.yml` builds the Jekyll source in `docs/` with the Just the Docs theme and deploys it.
+1. In repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**.
+2. Select branch `main` and folder `/docs`, then save. GitHub Pages builds and publishes when changes are pushed to that source.
+3. The Jekyll configuration loads Just the Docs through the GitHub Pages-compatible remote-theme plugin.
 
-The current Jekyll configuration is prepared for `dvwl/ai4055-multi-agent-development-workflows` and uses the pinned Just the Docs theme release in the root `Gemfile`.
+The current Jekyll configuration is prepared for `dvwl/ai4055-multi-agent-development-workflows`.
 
 Theme and deployment references: [Just the Docs](https://just-the-docs.github.io/just-the-docs/), [MCP setup in VS Code](https://code.visualstudio.com/docs/agent-customization/mcp-servers), and the [Copilot MCP configuration reference](https://code.visualstudio.com/docs/agents/reference/mcp-configuration).
 

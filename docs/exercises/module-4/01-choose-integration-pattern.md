@@ -33,6 +33,12 @@ Consider custom agent, MCP server/tool, backend API, webhook, IDE extension, and
 4. Check current VS Code support for the target harness before committing to an integration.
 5. Swap one scenario with another pair and critique their chosen pattern.
 
+## Example request path
+
+The example traces a user-initiated schema lookup through MCP to the local API and rejects a webhook as the wrong interaction pattern.
+
+![VS Code Copilot sequence diagram and evidence map for a schema lookup through Copilot, MCP, and the local API.](../../assets/images/module-4/schema-tool-request-path.png)
+
 ## Deliverable
 
 One architecture sketch and a decision table containing chosen pattern, alternative rejected, key dependency, and item to verify in current product documentation.

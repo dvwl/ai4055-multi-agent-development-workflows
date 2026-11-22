@@ -20,6 +20,12 @@ Use `demos/capstone-python/feature-request.md` as the source. Ask Copilot to pro
 4. Highlight unresolved health thresholds, authorization policy, export behavior, and freshness rules. Assign each question to a human approver.
 5. Peer-review the analysis for invented fields, unsupported policy, or acceptance criteria that cannot be tested.
 
+## Example analysis
+
+This example grounds the request in the starter and leaves health, authorization, export, freshness, and host-integration decisions for human approval.
+
+![VS Code Copilot requirement map with existing files, tenant-scope evidence, and unresolved dashboard decisions.](../../assets/images/module-9/feature-analysis-decisions.png)
+
 ## Deliverable
 
 `feature-analysis.md`, a requirements traceability table, and an open-question log with an owner. Stop before implementation if any unresolved item changes authorization or tenant access.

@@ -26,6 +26,12 @@ Separate product/organization policy from repository guidance and from review ob
 
 An agent file says “do not modify production settings,” but the agent has terminal and edit tools. Which control must change if the action must be blocked rather than discouraged?
 
+## Example control map
+
+The scenarios are hypothetical; this example distinguishes configured enforcement from repository guidance and notes what remains unverified.
+
+![VS Code Copilot control matrix separating blocking controls from guidance and identifying a residual risk.](../../assets/images/module-7/policy-control-matrix.png)
+
 ## Deliverable
 
 Three completed control analyses, one correctly identified residual risk, and an evidence source for any product-policy claim.

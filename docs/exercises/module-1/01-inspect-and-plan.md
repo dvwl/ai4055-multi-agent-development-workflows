@@ -38,6 +38,12 @@ Start a new Agent Mode conversation. Ask it to:
 
 Use repository search and inspect the named source files yourself. Treat the response as a proposal, not proof.
 
+## Example plan output
+
+This screenshot shows one possible evidence-backed plan. Your response may differ; verify it against the repository yourself.
+
+![VS Code Copilot response showing a ticket-filtering plan and confirming that no files changed.](../../assets/images/module-1/agent-plan-output.png)
+
 ## Individual practice
 
 Repeat the task in a fresh chat, changing the minimum priority or filter to a different reasonable value. Compare whether the proposed tests change. Do not edit the files during this lab.

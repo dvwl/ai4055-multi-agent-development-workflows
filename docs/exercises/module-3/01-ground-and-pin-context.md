@@ -24,6 +24,12 @@ Use the Module 1 ticket service or the Module 4–6 Python API.
 4. Ask for a plan to add a narrowly scoped behavior. Require the agent to separate facts, assumptions, and unknowns.
 5. Do not edit files. Ask a peer to verify two cited paths and the acceptance criteria.
 
+## Example evidence map
+
+This is one possible checklist; confirm its file paths and evidence in your own workspace.
+
+![VS Code Copilot checklist grounding an onboarding prompt in the service, tests, and README.](../../assets/images/module-3/ground-and-pin-context.png)
+
 ## Independent variation
 
 Repeat with another demo directory or choose different test files. Compare how the evidence set changes and which files you pinned deliberately.

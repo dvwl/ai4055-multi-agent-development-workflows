@@ -25,6 +25,12 @@ Use `demos/module-8-workflows/workflow-guide.md` and the Module 1 ticket service
 5. Add one human approval point before implementation and one before the final report.
 6. Compare two architecture options, but choose only one to implement.
 
+## Example stage map
+
+The example makes the contract, dependency order, human gates, and stop conditions explicit; the guide is a plan, not an executable runner.
+
+![VS Code Copilot stage map showing dependency order, approval gates, verification, and stop conditions.](../../assets/images/module-8/workflow-stage-map.png)
+
 ## Individual variation
 
 Use `decision-cases.md` to make a branch for a public-contract conflict. State exactly what evidence triggers the branch and who resolves it.

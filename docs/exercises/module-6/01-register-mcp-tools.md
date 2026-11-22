@@ -25,6 +25,14 @@ Connect Copilot to the stdio MCP server that calls the local API. The MCP server
 
 Current config locations and fields vary by harness. Use the current [VS Code MCP setup guide](https://code.visualstudio.com/docs/agent-customization/mcp-servers) and [configuration reference](https://code.visualstudio.com/docs/agents/reference/mcp-configuration). Do not copy secrets to a shared workspace `.mcp.json`.
 
+## Example workflow captures
+
+The first capture shows the local fixture setup and registration checks; the second focuses on tool verification and failure diagnosis. Neither includes key values.
+
+![VS Code checklist for starting the fixture API, registering databaseContext, checking its tools, and verifying a real call.](../../assets/images/module-6/mcp-registration-steps.png)
+
+![VS Code checklist for verifying MCP tool results and diagnosing startup, API, authentication, and provider failures.](../../assets/images/module-6/mcp-tool-verification.png)
+
 ## Troubleshooting evidence
 
 Record whether the failure is MCP startup, API connectivity, API authentication, MySQL/fixture provider, or Copilot tool selection. Capture the safe error only—never credentials.

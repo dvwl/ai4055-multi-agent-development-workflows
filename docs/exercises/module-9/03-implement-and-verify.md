@@ -28,6 +28,12 @@ Choose one slice from the approved plan that does **not** depend on unresolved h
 5. Run the starter demo and inspect the complete diff. Separate failures caused by the change from environment or pre-existing issues.
 6. Ask QA to map each accepted criterion to test evidence; do not claim unrun checks passed.
 
+## Baseline test evidence
+
+These five tests verify the starter only; they do not implement or approve the unresolved dashboard rules.
+
+![VS Code Copilot reports five passing baseline capstone tests and distinguishes them from unresolved feature acceptance criteria.](../../assets/images/module-9/baseline-test-evidence.png)
+
 ## Deliverable
 
 Small reviewed diff, tests, command output, and a requirement-to-test trace. If a policy decision blocks implementation, record the blocker and demonstrate a non-sensitive independent slice instead.

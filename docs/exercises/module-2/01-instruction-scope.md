@@ -35,6 +35,12 @@ Classify each rule in this worksheet:
 
 Ask Copilot to explain which instructions it considers applicable to `demos/module-1-python/customer_ops/service.py` and `tests/test_service.py`. Inspect the source files and files referenced by the agent; do not treat the model's explanation as authoritative proof of instruction loading.
 
+## Example response
+
+The example distinguishes guidance from checks that only run when invoked. Verify the paths and workflow status in your own workspace.
+
+![VS Code Copilot response mapping repository and Python-scoped instructions to source and test files.](../../assets/images/module-2/instruction-scope-plan.png)
+
 ## Individual extension
 
 Add one proposed rule for a new module, then decide the narrowest scope that still makes it reusable. Identify one rule that should be enforced outside the prompt (for example, through CI or repository permissions).

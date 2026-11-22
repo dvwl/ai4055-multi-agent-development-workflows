@@ -42,3 +42,5 @@ Choose `products` or `order_items`. Predict the output before calling the route;
 ## Evidence
 
 Capture the test result, one successful response, one safe rejection, and the source file that produced each result. Do not capture the API key in screenshots or logs.
+
+![VS Code terminal output showing all six fixture-mode schema API tests passing, with coverage summarized and no key values shown.](../../assets/images/module-5/fixture-schema-api-tests.png)

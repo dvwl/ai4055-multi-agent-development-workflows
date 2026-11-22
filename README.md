@@ -35,18 +35,17 @@ python -m unittest discover -s tests -v
 
 The Module 1 and capstone starters use Python's standard library; no package installation is required. Modules 4–6 document their own dependencies and local MySQL setup.
 
-## Publish the Jekyll site with GitHub Pages
+## Enable GitHub Pages
 
-1. Push the `main` branch to the public GitHub repository `dvwl/ai4055-multi-agent-development-workflows`.
-2. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
+1. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
+2. Run **Deploy Jekyll site to GitHub Pages** from the Actions tab (or push a later commit) to start the first deployment.
 3. The workflow in `.github/workflows/pages.yml` builds the Jekyll source in `docs/` with the Just the Docs theme and deploys it.
-4. If you choose a different owner or repository name, update `repository` and `url` in `docs/_config.yml`. The workflow supplies the correct Pages base path during deployment.
 
 The current Jekyll configuration is prepared for `dvwl/ai4055-multi-agent-development-workflows` and uses the pinned Just the Docs theme release in the root `Gemfile`.
 
 Theme and deployment references: [Just the Docs](https://just-the-docs.github.io/just-the-docs/), [MCP setup in VS Code](https://code.visualstudio.com/docs/agent-customization/mcp-servers), and the [Copilot MCP configuration reference](https://code.visualstudio.com/docs/agents/reference/mcp-configuration).
 
-## Before making this public
+## Before using this with learners
 
 - Review the course metadata and all lab instructions for publication.
 - Choose and add a repository license if you intend to grant reuse rights. No license is included in this scaffold.

@@ -12,6 +12,8 @@ Course site and companion materials for **Pragmatic SDLC Automation: Implementin
 - **Current materials:** Exercises for Modules 1–9, Python demos, and Copilot workspace customizations.
 - **Course structure:** Modules 1–9 across Day 1 (declarative workspace context and agent design), Day 2 (hosted tool extensibility), and Day 3 (governance and lifecycle workflows).
 
+[Start Module 1 →](https://dvwl.github.io/ai4055-multi-agent-development-workflows/exercises/module-1/) · [Browse all exercises](https://dvwl.github.io/ai4055-multi-agent-development-workflows/exercises/) · [Course Info](https://www.dreamcatcher.asia/training/4055?scroll=1)
+
 ## Start here
 
 New learners should:
@@ -71,7 +73,7 @@ The Module 1 and capstone starters use Python's standard library; no package ins
 
 ## GitHub Pages publishing
 
-This repository's Pages site is configured to publish from branch `main` and folder `/ (root)`. The README is the learner-facing home page; the module pages under `docs/exercises/` use explicit permalinks.
+This repository's Pages site is configured to publish from branch `main` and folder `/ (root)`. The learner-facing home page is [`index.md`](index.md); `README.md` is the repository guide. Module exercise pages under `docs/exercises/` use explicit permalinks.
 
 To change the source, open repository **Settings → Pages → Build and deployment** and select the branch and folder you want. The project-page URLs and links in this README are currently set for `dvwl/ai4055-multi-agent-development-workflows`.
 

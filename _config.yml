@@ -1,0 +1,28 @@
+title: "AI4055 | Pragmatic SDLC Automation"
+description: "Three days of Python-first exercises for GitHub Copilot multi-agent development workflows."
+url: "https://dvwl.github.io"
+baseurl: "/ai4055-multi-agent-development-workflows"
+repository: "dvwl/ai4055-multi-agent-development-workflows"
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
+markdown: kramdown
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+aux_links:
+  Course outline: "https://www.dreamcatcher.asia/training/4055?scroll=1"
+  Repository: "https://github.com/dvwl/ai4055-multi-agent-development-workflows"
+aux_links_new_tab: true
+exclude:
+  - .bundle
+  - .github
+  - .git
+  - .jekyll-cache
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - demos
+  - node_modules
+  - vendor
